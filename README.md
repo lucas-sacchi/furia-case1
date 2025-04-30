@@ -7,9 +7,12 @@ Este projeto é um chatbot temático da organização **FURIA Esports**, desenvo
 
 ## 📸 Visão Geral
 
+![Página Inicial](assets/app.png)
+![Chat](assets/chat.png)
+
 A interface imersiva, com identidade visual da FURIA, permite que usuários:
-- Conversem com um bot inteligente contextualizado sobre o universo FURIA
-- Consultem canais de criadores de conteúdo da FURIA que estão ao vivo na Twitch
+- Converse com um bot inteligente contextualizado sobre o universo FURIA
+- Consulte canais de criadores de conteúdo da FURIA que estão ao vivo na Twitch
 - Acessem rapidamente links úteis (Loja, Últimos jogos)
 
 ---
