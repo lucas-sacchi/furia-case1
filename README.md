@@ -1,5 +1,5 @@
 
-# 🐾 FURIA Chatbot – Aplicação Web com IA e Twitch
+# 🐾 FURIA Chatbot – Aplicação Web
 
 Este projeto é um chatbot temático da organização **FURIA Esports**, desenvolvido com **Node.js**, **Express** e **JavaScript puro** no front-end. Ele responde interações do usuário com inteligência artificial, utilizando o modelo **GPT-3.5-turbo da OpenAI** via **OpenRouter**, além de consumir dados ao vivo da **API da Twitch** para exibir canais online da equipe.
 
