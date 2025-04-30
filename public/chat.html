@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FURIA Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-chat.css">
+</head>
+<body>
+  <div class="chat-container">
+    <a href="http://127.0.0.1:5500/public/index.html" class="logo-link">
+        <img src="css/logo-furia-s-background.png" alt="Logo FURIA" class="logo-top-left">
+    </a>      
+    <div class="chat-content">
+        <div class="chat-box">
+          <div class="messages" id="messages"></div>
+          <form class="input-area" id="chat-form">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem..." autocomplete="off" />
+            <button type="submit">Enviar</button>
+          </form>
+          <div class="quick-buttons">
+            <button data-msg="Ver lives agora">👀 Ver lives agora</button>
+            <button data-msg="Loja da FURIA">👕 Loja da FURIA</button>
+            <button data-msg="Últimos jogos">📅 Últimos jogos</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="js/chat.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FURIA Web Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background">
+    <img src="css/logo-furia-s-background.png" alt="Logo FURIA" class="logo-furia">
+    <div class="overlay">
+        <a href="chat.html" class="chat-button">CHAT</a>
+    </div>
+  </div>
+
+  <script type="module">
+    import { VFX } from "https://esm.sh/@vfx-js/core";
+
+    class ButtonEffect {
+      constructor(button) {
+        this.vfx = new VFX();
+        button.addEventListener("mouseenter", () => {
+          this.vfx.add(button, { shader: "glitch", overflow: 100 });
+        });
+
+        button.addEventListener("mouseleave", () => {
+          this.vfx.remove(button);
+        });
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      new ButtonEffect(document.querySelector(".chat-button"));
+    });
+  </script>
+</body>
+</html>
