@@ -130,6 +130,3 @@ E retorna as lives ativas no momento da requisição.
 ---
 
 
-## ✍️ Autor
-
-Desenvolvido por @lucas-sacchi 
